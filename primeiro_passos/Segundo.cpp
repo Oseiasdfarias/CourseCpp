@@ -7,7 +7,7 @@
 
 int main( int argc, char **argv ){
 
-	std :: cout << "VOU \nAPRENDER\nC++" << std :: endl;
+	std::cout << "\nVOU \nAPRENDER\nC++\n"  << '\n';
 
 	return 0;
 }
