@@ -4,14 +4,14 @@
 
 void ExibirMenu()
 {
-	do // as instruções abaixo serão executadas pelo menos uma vez!
+	do
 	{
 		std::cout << "\n****Tickets Cinema****" << std::endl;
 		std::cout << "\n1 - Para Meia Entrada\n";
 		std::cout << "2 - Para Inteira\n";
 		std::cout << "3 - Sair";
 
-	} while (ProcessarEscolha(RetornarEscolha()) != 3);//enquanto escolha for diferente de 3 o 
+	} while (ProcessarEscolha(RetornarEscolha()) != 3); 
 }
 
 int RetornarEscolha()
