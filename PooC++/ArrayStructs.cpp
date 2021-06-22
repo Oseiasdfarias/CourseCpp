@@ -27,7 +27,7 @@ int main(int argc, char **argv)
     for (int j = 0; j < 3; j++)
     {
 	    std::cout << "\n------------ INFOS ------------" << "\n\n";
-	    std::cout << "Materia2: " << livro[j].Autor << "\n";
+	    std::cout << "Materia2: "# << livro[j].Autor << "\n";
 	    std::cout << "Materia1: " << livro[j].Titulo << "\n";
         std::cout << "\n ------------------------------- \n";
 
